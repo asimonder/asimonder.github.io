@@ -429,3 +429,8 @@ jsonresume:
   - languages
   - interests
   - references
+
+carousels:
+  - images: 
+    - image: /assets/img/code-screenshot.jpg
+    - image: /assets/img/math-screenshot.jpg
