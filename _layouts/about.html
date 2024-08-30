@@ -5,6 +5,7 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
+	{% include carousel.html height="50" unit="%" duration="7" number="1" %}
           <!--h1 class="post-title">
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1-->
@@ -12,16 +13,16 @@ layout: default
             <div class="logo">
               {%- if page.logo %}
               {%- assign profile_image_path = page.logo | prepend: 'assets/img/' -%}
-              {% include figure.html
+             <{% include figure.html
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image
-              cache_bust=true -%}
+              cache_bust=true -%}>
           {% endif -%}
 	    </div>
 	    <!--h1 class="desc">{{ page.profile.address }}</h1-->
         </header>
-
+	      
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
