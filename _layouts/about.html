@@ -18,11 +18,11 @@ layout: default
             <div class="logo">
               {%- if page.logo %}
               {%- assign profile_image_path = page.logo | prepend: 'assets/img/' -%}
-             <{% include figure.html
+             {% include figure.html
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image
-              cache_bust=true -%}>
+              cache_bust=true -%}
           {% endif -%}
 	    </div>
 	    <!--h1 class="desc">{{ page.profile.address }}</h1-->
