@@ -6,8 +6,8 @@ logo: Logo.png
 
 carousels:
   - images: 
-    - image: assets/img/1.jpg
-    - image: assets/img/2.jpg
+    - image: assets/img/publication_preview/brownian-motion.gif
+    - image: assets/img/publication_preview/wave-mechanics.gif
     - image: assets/img/3.jpg
     - image: assets/img/4.jpg
       
