@@ -3,12 +3,11 @@
   captions: true
   images:
     - src: assets/img/asi.gif
-      title: Air-Sea Fluxes
-      alt: DNS of marine atmospheric boundary layer
-    - data-src: assets/img/publication_preview/wave-mechanics.gif
-      title: Title
-      alt: Use data-src for on-demand loading
-      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
+      title: Air-Sea Interaction
+      alt: Turbulent exchange in marine atmospheric boundary layer
+    - data-src: assets/img/tsunami.png
+      title: Tsunamis
+      alt: Turbulence in bottom boundary layer
     - data-src: assets/img/3.jpg
       title: Title
       alt: Use data-src-2x for HiDPI devices
