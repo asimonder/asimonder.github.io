@@ -19,7 +19,7 @@
     initialHeight:
     maxHeight:
     interval: 
-    transitionDuration: 30
+    transitionDuration: 9
     effect: "'fade'"
     disableNav:
     keyboardNav:
