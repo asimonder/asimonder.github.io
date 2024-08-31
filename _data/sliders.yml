@@ -3,9 +3,8 @@
   captions: true
   images:
     - src: assets/img/asi.gif
-      title: Title
-      alt: Minimum required attributes
-      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
+      title: Air-Sea Fluxes
+      alt: Marine atmospheric boundary layer
     - data-src: assets/img/publication_preview/wave-mechanics.gif
       title: Title
       alt: Use data-src for on-demand loading
@@ -19,7 +18,7 @@
       alt: Links work too
       href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
   settings:
-    height: 350
+    height: 420
     initialHeight:
     maxHeight:
     interval: 
