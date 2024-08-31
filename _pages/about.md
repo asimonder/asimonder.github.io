@@ -12,7 +12,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-# Marine Aero- & Hydrodynamics Laboratory
+<h1 style="text-align: center;">Marine Aero- & Hydrodynamics Laboratory</h1>
+<h4 style="text-align: center;"> </h4>
 
 {% include slider.html selector="slider1" %}
 
