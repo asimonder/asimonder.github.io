@@ -19,7 +19,7 @@
     height: 250
     initialHeight:
     maxHeight:
-    interval: 1 
+    interval: 10 s
     transitionDuration:
     effect:
     disableNav:
