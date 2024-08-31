@@ -5,12 +5,15 @@
     - src: assets/img/publication_preview/brownian-motion.gif
       title: Title
       alt: Minimum required attributes
+      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
     - data-src: assets/img/publication_preview/wave-mechanics.gif
       title: Title
       alt: Use data-src for on-demand loading
+      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
     - data-src: assets/img/3.jpg
       title: Title
       alt: Use data-src-2x for HiDPI devices
+      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
     - src: assets/img/4.jpg
       title: Title
       alt: Links work too
@@ -19,9 +22,9 @@
     height: 250
     initialHeight:
     maxHeight:
-    interval: 10 s
+    interval: 0.1
     transitionDuration:
-    effect:
+    effect: "'fade'"
     disableNav:
     keyboardNav:
     previousNavSelector:
