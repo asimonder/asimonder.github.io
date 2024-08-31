@@ -2,7 +2,7 @@
   bullets: true
   captions: true
   images:
-    - src: assets/img/publication_preview/brownian-motion.gif
+    - src: assets/img/asi.gif
       title: Title
       alt: Minimum required attributes
       href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
