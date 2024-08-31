@@ -8,12 +8,12 @@
     - data-src: assets/img/tsunami.png
       title: Tsunamis
       alt: Turbulent flow beneath a long wave
-    - data-src: assets/img/mlp.jpg
+    - src: assets/img/WE.png
+      title: Offshore Wind Energy
+      alt: Large-eddy simulation to understand the wake effects
+    - data-src: assets/img/mlp.png
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
-    - src: assets/img/4.jpg
-      title: Title
-      alt: Links work too
   settings:
     height: 420
     initialHeight:
