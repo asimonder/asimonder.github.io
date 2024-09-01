@@ -20,4 +20,4 @@ you are welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.o
 </div>
 
 <br/><br/>
-<img src="../assets/img/nsysu.jpeg" alt="drawing" width="880"/>
+<img src="../assets/img/nsysu_small.jpeg" alt="drawing" width="880"/>
