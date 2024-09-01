@@ -66,8 +66,7 @@ layout: default
     <li><a href="#{{ entry[0] }}"><span class="badge-toc">{{ entry[0] | capitalize }}</span></a></li>
   {% endfor %}
   </ul>
-
-  <article>
+  
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -90,6 +89,8 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+  
+  <article>
     <div class="cv">
       {% for data in site.data.resume %}
         {% if site.jsonresume and site.jsonresume.size > 0 %}
