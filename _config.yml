@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: #Marine Aero- & Hydrodynamics Laboratory # the website title (if blank, full name will be used instead)
+title: M.Aer.Hyd Lab #Marine Aero- & Hydrodynamics Laboratory # the website title (if blank, full name will be used instead)
 first_name: <b> M.Aer.Hyd </b>
 middle_name: 
 last_name: Lab
@@ -179,7 +179,7 @@ collections:
     permalink: /projects/:path/
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
