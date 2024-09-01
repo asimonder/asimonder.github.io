@@ -9,6 +9,6 @@ cv_pdf: onder_asim_cv.pdf
 description: Background information for principal investigator
 profile:
   align: top
-  image: prof_pic.jpg
+  image: asim.png
   image_circular: true # crops the image to make it circular
 ---
