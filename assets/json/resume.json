@@ -2,9 +2,10 @@
   "basics": {
     "name": "Dr. Asim Önder",
     "label": "Assistant Professor",
-    "image": "",
+    "image": asim.png,
     "email": "asim.onder@mail.nsysu.edu.tw",
     "phone": "07-5252000#5065",
+    "office": "ME 5006 & 5008",
     "url": "https://asimonder.github.io",
     //"summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
