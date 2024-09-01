@@ -1,12 +1,12 @@
 ---
 layout: cv
 permalink: /pi/
-title: Principal Investigator
+title: PI
 nav: true
 nav_order: 2
 toc: false 
 cv_pdf: onder_asim_cv.pdf
-description: Background information
+description: Dr. Asim Önder
 profile:
   align: top
   image: asim.png
