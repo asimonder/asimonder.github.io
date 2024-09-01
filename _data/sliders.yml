@@ -10,7 +10,7 @@
       alt: Large-eddy simulation unravelling wake effects
     - src: assets/img/asi.gif
       title: Air-Sea Interaction
-      alt: Wave-turbulence interaction in marine surface layer
+      alt: Wind-wave-current interactions in a marine surface layer
     - data-src: assets/img/mlp.png
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
