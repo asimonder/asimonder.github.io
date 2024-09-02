@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-We have currently one opening in our lab:
+We have one available position in our lab:
   -  <b> <a href="../assets/pdf/PhdPosition_MAerHydLab.pdf"> PhD Position in Fully-Coupled Simulation of Marine Surface Layers</a> </b>
 
 
