@@ -17,7 +17,7 @@
   settings:
     height: "'auto'"
     initialHeight:
-    maxHeight: 250
+    maxHeight: 
     interval: 
     transitionDuration: 10
     effect: "'fade'"
