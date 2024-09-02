@@ -8,12 +8,12 @@
     - src: assets/img/WE.png
       title: Offshore Wind Energy
       alt: Large-eddy simulation unravelling wake effects
+    - data-src: assets/img/turbulence_tsunami.gif
+      title: Tsunamis
+      alt: Turbulence under a tsunami at 1 km depth 
     - data-src: assets/img/mlp.png
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
-    - data-src: assets/img/turbulence_tsunami.gif
-      title: Tsunamis
-      alt: Near-bed turbulence beneath a tsunami at a depth of 1 km
   settings:
     height: 300
     initialHeight:
