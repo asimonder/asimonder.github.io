@@ -9,6 +9,8 @@ nav_order: 6
 
 We have currently one opening in our lab:
   -  <b> <a href="../assets/pdf/PhdPosition_MAerHydLab.pdf"> PhD Position in Fully-Coupled Simulation of Marine Surface Layers</a> </b>
-    
+
+&nbsp;
+
 Additionally, motivated master's and bachelor's students with good academic background are always welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about availabe research projects. 
 
