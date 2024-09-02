@@ -1,17 +1,15 @@
 ---
 layout: page
 permalink: /positions/
-title: 
+title: Positions
 description: 
 nav: true
 nav_order: 6
 ---
 
-<h1>Open Positions</h1> 
-  
-<h3> A PhD position is available in our lab. Please see <a href="../assets/pdf/PhdPosition_MAerHydLab.pdf">the link </a> for details. </h3> 
-
-
+## We have currently one opening in our lab:
+  -  <a href="../assets/pdf/PhdPosition_MAerHydLab.pdf"> PhD Position in Fully-Coupled Simulation of Marine Surface Layerthe link </a>
+    
 
 <h2 > Contact </h2>
 
