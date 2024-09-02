@@ -2,15 +2,15 @@
   bullets: true
   captions: true
   images:
-    - data-src: assets/img/tsunami.png
-      title: Tsunamis
-      alt: Near-bed turbulence beneath a tsunami
     - src: assets/img/WE.png
       title: Offshore Wind Energy
       alt: Large-eddy simulation unravelling wake effects
     - src: assets/img/asi.gif
       title: Air-Sea Interaction
       alt: Wind-wave-current interactions in a marine surface layer
+    - data-src: assets/img/tsunami.png
+      title: Tsunamis
+      alt: Near-bed turbulence beneath a tsunami
     - data-src: assets/img/mlp.png
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
