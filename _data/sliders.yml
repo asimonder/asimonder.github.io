@@ -15,7 +15,7 @@
       title: Tsunamis
       alt: Near-bed turbulence beneath a tsunami at a depth of 1 km
   settings:
-    height: "'auto'"
+    height: 300
     initialHeight:
     maxHeight: 
     interval: 
