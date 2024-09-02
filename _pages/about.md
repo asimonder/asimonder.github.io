@@ -31,5 +31,5 @@ The current research interests include:
 
 --------------------------
 
-### We recently have openings! Please see <a href="/positions/">Positions</a> for details. 
+We recently have openings! Please see <a href="/positions/">Positions</a> for details. 
 
