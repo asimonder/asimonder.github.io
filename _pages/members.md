@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /Member/
 title: Members
-description: 
+description: We are hiring. Join us!
 nav: true
 nav_order: 3
 
@@ -17,5 +17,4 @@ profiles:
 ---
 ---
 
---- 
-We are hiring! Join us!
+
