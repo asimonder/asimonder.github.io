@@ -15,7 +15,7 @@
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
   settings:
-    height: 360
+    height: 100 wh
     initialHeight:
     maxHeight:
     interval: 
