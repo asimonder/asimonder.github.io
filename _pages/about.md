@@ -29,5 +29,7 @@ The current research interests include:
 - <b> Tsunamis </b>: bottom friction, sediment transport
 - <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
 
-### We currently have one open Position! Please see <a href="/positions/">Positions</a>. 
+--------------------------
+
+### We currently have one open position! Please see <a href="/positions/">Positions</a>. 
 
