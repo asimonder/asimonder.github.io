@@ -2,12 +2,12 @@
   bullets: true
   captions: true
   images:
-    - src: assets/img/WE.png
-      title: Offshore Wind Energy
-      alt: Large-eddy simulation unravelling wake effects
     - src: assets/img/asi.gif
       title: Air-Sea Interaction
       alt: Wind-wave-current interactions in a marine surface layer
+    - src: assets/img/WE.png
+      title: Offshore Wind Energy
+      alt: Large-eddy simulation unravelling wake effects
     - data-src: assets/img/mlp.png
       title: AI models for Air-Sea Coupling
       alt: Interfacial curvature estimation
@@ -19,7 +19,7 @@
     initialHeight:
     maxHeight: 
     interval: 
-    transitionDuration: 10
+    transitionDuration: 9
     effect: "'fade'"
     disableNav:
     keyboardNav:
