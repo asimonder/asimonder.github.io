@@ -12,9 +12,10 @@ profiles:
     image: member1.jpeg
     content: beta.md
     image_circular: true # crops the image to make it circular
-    more_info: >
+    more_info: 
       <!--p> </p-->
 ---
 ---
 
-We are hiring! 
+--- 
+We are hiring! Join us!
