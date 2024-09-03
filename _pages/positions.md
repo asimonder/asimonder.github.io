@@ -16,4 +16,6 @@ Additionally, motivated master's and bachelor's students with good academic back
 &nbsp;
 &nbsp;
 
-<img src="../assets/img/breakingwave.jpeg" alt="drawing" width="450"/>
+<p style="text-align:center;">
+<img src="../assets/img/breakingwave.jpg" alt="drawing" width="450"/>
+</p>
