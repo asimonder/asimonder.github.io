@@ -13,3 +13,4 @@ We have one available position in our lab:
 
 Additionally, motivated master's and bachelor's students with good academic background are always welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about available research projects. 
 
+<img src="../assets/img/breakingwave.jpeg" alt="drawing" width="450"/>
