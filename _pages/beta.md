@@ -13,6 +13,6 @@
             <a href="https://github.com/haripriyaSahoo" style="text-decoration: none; color: inherit; margin: 0 10px;"> 
                 <i class="fab fa-github" style="font-size: 24px; color: #333;"></i>
             </a>
-        </div>
+    </div>
 
 
