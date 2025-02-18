@@ -1,7 +1,7 @@
 <body style="display: flex; height: 100vh; background-color: #f0f0f0; margin: 0; font-family: Arial, sans-serif;">
   <div class="profile-container" style="text-align: left;">
       <div class="name-container" >
-          <b class="name" style="font-size: 24px; margin-right: 10px;">  Haripriya Sahoo  </b>
+          <b class="name" style="font-size: 24px; margin-right: 10px;">Haripriya Sahoo</b>
           <p>Ph.D. Student</p>
           <p><i> Machine learning models for interfacial flows </i> </p> 
       </div>
