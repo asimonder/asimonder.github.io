@@ -10,7 +10,7 @@ profiles:
  
   - align: left
     image: member1.jpeg
-    content: test.md
+    content: 
     image_circular: true # crops the image to make it circular
 ---
 
