@@ -1036,9 +1036,9 @@ nav[data-toggle="toc"] {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 992px) {
   h1 {
-    font-size: 1.75rem !important;
-    line-height: 1.2 !important;
+    font-size: 2.2rem;   /* adjust until you like it */
+    line-height: 1.2;
   }
 }
