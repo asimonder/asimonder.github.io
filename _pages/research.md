@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: A short video highlighting current and past resarch activities. (Updates are in order.)
+description: Research Projects
 nav: true
 nav_order: 4
 display_categories: []
