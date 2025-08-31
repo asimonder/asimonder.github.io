@@ -13,6 +13,8 @@ horizontal: false
   <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 65%; max-width: 800px; height: auto;">
 </p>
 
+Our research integrates offshore wind system modeling, air–sea multiphase dynamics, and regional wind planning through coupled parameterizations and cross-scale interactions.
+
 --
 ### Air-Sea Interactions
 
