@@ -1034,3 +1034,11 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+  }
+}
