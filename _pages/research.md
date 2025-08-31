@@ -37,7 +37,7 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
     <img src="{{ '/assets/img/DNS_MABL.jpg' | relative_url }}" alt="DNS of air-sea interface" class="img-fluid rounded">
   </div>
   <div class="col-sm-7">
-    This is the core of our research program. We use large-scale Direct Numerical Simulation (DNS) to generate "ground-truth" data of the turbulent air-sea boundary layer, unraveling the fundamental physics of momentum, heat, and gas exchange. The insights from these simulations are used to develop and validate a new generation of more accurate, physics-aware turbulence models and novel machine learning methods for two-phase flows.
+    Our fundamental research targets the micro-physics of the air–sea interface. Using large-scale Direct Numerical Simulations (DNS), we generate comprehensive ground-truth datasets that resolve turbulent momentum and heat exchange, as well as multiphase processes such as wave breaking, sea spray, and bubble entrainment. These datasets provide the foundation for developing and validating physics-based parameterizations, novel turbulence closures, and data-driven approaches including machine learning.
   </div>
 </div>
 
