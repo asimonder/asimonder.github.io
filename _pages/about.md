@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 &nbsp;
 
 <p style="text-align: center;">
-  <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="Simulation of an offshore wind farm" style="width: 100%; max-width: 800px; height: auto;">
+  <img src="{{ '/assets/img/WindFarmWSeaBedCropped.jpg' | relative_url }}" alt="Simulation of an offshore wind farm" style="width: 100%; max-width: 800px; height: auto;">
 </p>
 
 &nbsp;
