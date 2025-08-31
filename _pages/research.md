@@ -13,6 +13,20 @@ horizontal: false
   <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 65%; max-width: 800px; height: auto;">
 </p>
 
+--
+### Air-Sea Interactions
+
+
+---
+### Offshore Wind Systems
+
+
+---
+### Regional Wind Planning
+
+---
+Old Text...
+
 The current research interests include:
 - <b> Air-sea interactions</b>: wind-wave interactions, gas and heat exchange, Langmuir circulations
 - <b> Offshore wind energy </b>: metocean characterization, aero-hydro coupling, atmospheric-stability effects, land-sea transition
