@@ -1,4 +1,3 @@
-![SAR_WindFarms](https://github.com/user-attachments/assets/0ff32f9d-d3ff-486d-85eb-237122688675)---
 layout: page
 title: Research
 permalink: /research/
