@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <p style="text-align: center;">
-  <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Simulation of an offshore wind farm" style="width: 70%; max-width: 800px; height: auto;">
+  <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 70%; max-width: 800px; height: auto;">
 </p>
 
 The current research interests include:
