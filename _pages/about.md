@@ -13,7 +13,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<h1 style="text-align: center;"> <b> Marine Aero- and Hydrodynamics Laboratory </b></h1>
+<div align="center">
+
+## **Marine Aero- and Hydrodynamics Laboratory**
+
+</div>
 
 &nbsp;
 
