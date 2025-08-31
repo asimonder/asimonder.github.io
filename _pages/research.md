@@ -17,19 +17,6 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
 
 ---
 
-### **Offshore Wind Systems**
-
-<div class="row">
-  <div class="col-sm-5">
-    <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="VOF-LES of a wind farm" class="img-fluid rounded">
-  </div>
-  <div class="col-sm-7">
-    Our work in this area focuses on creating high-fidelity "digital twins" of offshore wind farms. We use large-eddy simulation (LES) coupled with a volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems in Taiwan.
-  </div>
-</div>
-
----
-
 ### **Air-Sea Interactions**
 
 <div class="row">
@@ -37,11 +24,25 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
     <img src="{{ '/assets/img/DNS_MABL.jpg' | relative_url }}" alt="DNS of air-sea interface" class="img-fluid rounded">
   </div>
   <div class="col-sm-7">
-    Our fundamental research targets the micro-physics of the air–sea interface. Using large-scale Direct Numerical Simulations (DNS), we generate comprehensive ground-truth datasets that resolve turbulent momentum and heat exchange, as well as multiphase processes such as wave breaking, sea spray, and bubble entrainment. These datasets provide the foundation for developing and validating physics-based parameterizations, novel turbulence closures, and data-driven approaches including machine learning.
+    At the core of our research is the micro-physics of the air–sea interface. Using large-scale Direct Numerical Simulations (DNS), we generate comprehensive ground-truth datasets that resolve turbulent momentum and heat exchange, as well as multiphase processes such as wave breaking, sea spray, and bubble entrainment. These datasets provide the foundation for developing and validating physics-based parameterizations, novel turbulence closures, and data-driven approaches including machine learning.
   </div>
 </div>
 
 ---
+
+### **Offshore Wind Systems**
+
+<div class="row">
+  <div class="col-sm-5">
+    <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="VOF-LES of a wind farm" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-7">
+    We create high-fidelity “digital twins” of offshore wind farms using large-eddy simulation (LES) coupled with volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems in Taiwan.
+  </div>
+</div>
+
+---
+
 
 ### **Regional Wind Planning**
 
