@@ -2,14 +2,16 @@
 layout: page
 title: Research
 permalink: /research/
-description: Research Projects
+description: Current Research Focus
 nav: true
 nav_order: 4
 display_categories: []
 horizontal: false
 ---
 
-
+<p style="text-align: center;">
+  <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Simulation of an offshore wind farm" style="width: 100%; max-width: 800px; height: auto;">
+</p>
 
 The current research interests include:
 - <b> Air-sea interactions</b>: wind-wave interactions, gas and heat exchange, Langmuir circulations
