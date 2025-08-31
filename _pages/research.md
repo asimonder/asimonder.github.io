@@ -1,4 +1,4 @@
----
+![SAR_WindFarms](https://github.com/user-attachments/assets/0ff32f9d-d3ff-486d-85eb-237122688675)---
 layout: page
 title: Research
 permalink: /research/
@@ -13,28 +13,43 @@ horizontal: false
   <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 65%; max-width: 800px;  min-width: 200px; height: auto;">
 </p>
 
-Our research integrates offshore wind system modeling, air–sea multiphase dynamics, and regional wind planning through coupled parameterizations and cross-scale interactions.
+---
+
+### **Offshore Wind Systems**
+
+<div class="row">
+  <div class="col-sm-5">
+    <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="VOF-LES of a wind farm" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-7">
+    Our work in this area focuses on creating high-fidelity "digital twins" of offshore wind farms. We use large-eddy simulation (LES) coupled with a volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems in Taiwan.
+  </div>
+</div>
 
 ---
 
-### Air-Sea Interactions
+### **Air-Sea Interactions**
 
+<div class="row">
+  <div class="col-sm-5">
+    <img src="{{ '/assets/img/DNS_MABL.jpg' | relative_url }}" alt="DNS of air-sea interface" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-7">
+    This is the core of our research program. We use large-scale Direct Numerical Simulation (DNS) to generate "ground-truth" data of the turbulent air-sea boundary layer, unraveling the fundamental physics of momentum, heat, and gas exchange. The insights from these simulations are used to develop and validate a new generation of more accurate, physics-aware turbulence models and novel machine learning methods for two-phase flows.
+  </div>
+</div>
 
 ---
-### Offshore Wind Systems
 
+### **Regional Wind Planning**
 
----
-### Regional Wind Planning
-
----
-Old Text...
-
-The current research interests include:
-- <b> Air-sea interactions</b>: wind-wave interactions, gas and heat exchange, Langmuir circulations
-- <b> Offshore wind energy </b>: metocean characterization, aero-hydro coupling, atmospheric-stability effects, land-sea transition
-- <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
-- <b> Tsunamis </b>: bottom friction, sediment transport
-- <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
+<div class="row">
+  <div class="col-sm-5">
+    <img src="{{ '/assets/img/SAR_WindFarms.jpg' | relative_url }}" alt="Regional model grid over Taiwan" class="img-fluid rounded">
+  </div>
+  <div class="col-sm-7">
+    We bridge the gap between our high-fidelity simulations and the regional-scale atmospheric models used for wind resource assessment. By analyzing data from our farm-scale LES and fundamental DNS, we develop new, physics-based "farm drag parameterizations" and "ocean drag models." These improved parameterizations are designed to be implemented in mesoscale models (like WRF) to more accurately predict the impact of large wind farm clusters on regional energy resources, a critical challenge for Taiwan's energy strategy.
+  </div>
+</div>
 
 
