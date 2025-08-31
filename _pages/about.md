@@ -3,8 +3,9 @@ layout: about
 title: Home
 permalink: / 
 
-image_sliders:
-  - slider1
+# The image_sliders section is now removed or commented out.
+# image_sliders:
+#  - slider1
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -16,9 +17,12 @@ social: true  # includes social icons at the bottom of the page
 
 &nbsp;
 
-{% include slider.html selector="slider1" %}
+<p style="text-align: center;">
+  <img src="{{ '/assets/img/WindFarmWSeaBed.png' | relative_url }}" alt="Simulation of an offshore wind farm" style="width: 100%; max-width: 800px; height: auto;">
+</p>
 
 &nbsp;
+
 
 Welcome to the **Marine Aero- and Hydrodynamics Laboratory**, led by [Dr. Asim Önder](/pi/) in the [Department of Marine Environment and Engineering](https://maev.nsysu.edu.tw/?Lang=en) at [National Sun Yat-sen University](https://www.nsysu.edu.tw/).  
 
