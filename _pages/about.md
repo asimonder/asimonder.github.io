@@ -12,7 +12,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<h1 style="text-align: center;"> <b> Marine Aero- & Hydrodynamics Laboratory </b></h1>
+<h1 style="text-align: center;"> <b> Marine Aero- and Hydrodynamics Laboratory </b></h1>
 
 &nbsp;
 
@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to the **Marine Aero- and Hydrodynamics Laboratory**, led by [Dr. Asim Önder](/pi/) in the [Department of Marine Environment and Engineering](https://maev.nsysu.edu.tw/?Lang=en) at [National Sun Yat-sen University](https://www.nsysu.edu.tw/).  
 
-Our lab integrates fundamental theory, advanced numerical algorithms, and high-fidelity simulations to study the complex, multi-scale interactions of air, sea, and marine structures. Our mission is to transform process-based understanding into solutions for critical challenges in offshore renewable energy, coastal resilience, and climate science.
+Our lab integrates fundamental theory, advanced numerical algorithms, and high-fidelity simulations to study the complex interactions of air, sea, and marine structures. Our mission is to transform process-based understanding into solutions for critical challenges in offshore renewable energy, coastal resilience, and climate science.
 
 The current research interests include:
 - <b> Air-sea interactions</b>: wind-wave interactions, gas and heat exchange, Langmuir circulations
