@@ -5,7 +5,6 @@ permalink: /positions/phd-airsea/
 ---
 ### PhD Position: Two-Phase LES of Marine Boundary Layers
 
-#### Project Overview
 A fully funded PhD position is available at the Department of Marine Environment and Engineering, National Sun Yat-sen University (Kaohsiung, Taiwan). The project focuses on the exchange of momentum and energy between wind and surface waves, known as wind–wave coupling, which is central to the dynamics of marine boundary layers and offshore wind resource assessment. The exchange of momentum and energy between wind and surface waves, known as wind–wave coupling, is central to the dynamics of marine boundary layers and directly affects offshore wind resource assessment. In strong winds, wave breaking, spray formation, and bubble entrainment further modify these exchanges, introducing multiphase processes that are poorly captured in existing models. Developing turbulence closures that represent both the primary wind–wave coupling and its multiphase feedbacks is essential for advancing Large-Eddy Simulation (LES) of the marine surface layer.
 
 #### Your Role
