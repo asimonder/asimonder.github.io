@@ -56,3 +56,6 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
 </div>
 
 
+---
+
+Together, these research directions form a multiscale pipeline, starting from the micro-physics of the air–sea interface, moving through high-fidelity digital twins of offshore wind farms, and extending to regional wind-resource assessment. This integrated approach advances the fundamental science of multiphase flows and turbulence while providing practical tools for offshore renewable energy worldwide. Applications include global offshore wind development as well as region-specific challenges such as those in the Taiwan Strait.
