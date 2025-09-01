@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Current Research Focus
+description: Research Focus
 nav: true
 nav_order: 4
 display_categories: []
