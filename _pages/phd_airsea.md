@@ -1,0 +1,30 @@
+---
+layout: page
+title: "PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers"
+permalink: /positions/phd-airsea/
+---
+
+# PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers
+
+## Project Overview
+The exchange of momentum and energy between wind and surface waves, known as wind–wave coupling, is central to the dynamics of marine boundary layers and directly affects offshore wind resource assessment. In strong winds, wave breaking, spray formation, and bubble entrainment further modify these exchanges, introducing multiphase processes that are poorly captured in existing models. Developing turbulence closures that represent both the primary wind–wave coupling and its multiphase feedbacks is essential for advancing Large-Eddy Simulation (LES) of the marine surface layer.
+
+## Your Role
+This PhD project combines physical analysis with turbulence model development. You will use two-phase Direct Numerical Simulation (DNS) datasets to investigate wind–wave coupling and its multiphase modifiers, such as breaking waves, spray, and bubbles. Building on these insights, you will design and test new subgrid-scale closures for LES, employing both physics-based formulations and machine learning methods. The outcome will be an LES framework that advances our understanding of marine surface layer dynamics and improves the estimation of offshore wind profiles.
+
+## Candidate Profile
+- Master’s degree in Engineering, Physics, Ocean/Mechanical/Civil Engineering, or a related field  
+- Strong background in fluid mechanics and turbulence  
+- Programming experience in C++ and/or Python, with CFD experience as an asset  
+- Proficiency in academic English  
+
+## Offer
+- Fully funded PhD position with tuition waiver and monthly stipend  
+- Access to Taiwan’s national supercomputing resources and an international research environment  
+- Support in applying for competitive external fellowships  
+
+## About NSYSU
+National Sun Yat-sen University (NSYSU) is a leading research university in Taiwan. Located in Kaohsiung, the seaside campus lies where the mountains meet the ocean, offering a unique living and research environment at the center of Taiwan’s offshore wind expansion.  
+
+## Application
+Send your CV, transcripts, and a short motivation letter to Dr. Asim Önder (asim.onder@mail.nsysu.edu.tw), Marine Aero- and Hydrodynamics Laboratory, National Sun Yat-sen University.
