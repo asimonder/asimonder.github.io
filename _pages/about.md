@@ -28,7 +28,7 @@ Welcome to the **Marine Aero- and Hydrodynamics Laboratory**, led by [Dr. Asim Ã
 
 Our lab integrates fundamental theory, advanced numerical algorithms, and high-fidelity simulations to study the complex interactions of air, sea, and marine structures. Our mission is to transform process-based understanding into solutions for critical challenges in offshore renewable energy, coastal resilience, and climate science.
 
-To learn more about our specific projects, please visit our [Research page](/research/). 
+To learn more about our specific projects, please visit our [Research Page](/research/). 
 
 <div style="border: 2px solid #003366; padding: 10px; margin: 20px 0; text-align: center; font-size: 1.1rem; font-weight: bold; color: #003366;">
   PhD and Postdoctoral Opportunities Available! See our <a href="/positions/" style="color: #003366; text-decoration: underline;">Open Positions</a>.
