@@ -12,7 +12,7 @@ The exchange of momentum and energy between wind and surface waves, known as win
 This PhD project combines physical analysis with turbulence model development. You will use two-phase Direct Numerical Simulation (DNS) datasets to investigate wind–wave coupling and its multiphase modifiers, such as breaking waves, spray, and bubbles. Building on these insights, you will design and test new subgrid-scale closures for LES, employing both physics-based formulations and machine learning methods. The outcome will be an LES framework that advances our understanding of marine surface layer dynamics and improves the estimation of offshore wind profiles.
 
 #### Candidate Profile
-- Master’s degree in Mechanical, Civil, Ocean, or Environmental Engineering, Physics, Applied Mathematics, or a closely related field  
+- Master’s degree in Mechanical, Civil, or Ocean Engineering, Physics, Applied Mathematics, or a closely related field  
 - Strong background in fluid mechanics and turbulence  
 - Programming experience in C++ and/or Python, with CFD experience as an asset  
 - Proficiency in academic English  
