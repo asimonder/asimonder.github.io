@@ -7,12 +7,15 @@ nav: true
 nav_order: 6
 ---
 
+## Open Positions
+
+- [PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers](/positions/phd-airsea)
+- [Postdoc Position: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines](/positions/postdoc-wind/)
+
+---
 
 Motivated master's and bachelor's students with good academic background are always welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about suitable research projects. 
 
-&nbsp;
-&nbsp;
 
-<p style="text-align:center;">
-<img src="../assets/img/breakingwave.jpg" alt="drawing" width="400"/>
-</p>
+
+
