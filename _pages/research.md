@@ -51,7 +51,7 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
     <img src="{{ '/assets/img/SAR_WindFarms.jpg' | relative_url }}" alt="Regional model grid over Taiwan" class="img-fluid rounded">
   </div>
   <div class="col-sm-6">
-    Our work connects detailed simulations of offshore wind farms with the regional-scale models used to assess wind resources and environmental impacts. By analyzing high-resolution LES data, we build new “farm drag” and “ocean drag” models that can be directly incorporated into mesoscale weather models like WRF. This improves predictions of how large wind farm clusters affect regional energy supply, an important step for Taiwan’s renewable energy planning.
+    Looking ahead, our goal is to connect detailed simulations of offshore wind farms with the regional-scale models used to assess wind resources and environmental impacts. Building on the high-resolution LES and DNS data generated in our other research areas, we aim to develop new “farm drag” and “ocean drag” models that can be incorporated into mesoscale weather models such as WRF. This integration will enable more accurate predictions of how large wind farm clusters affect regional energy supply, an important step for Taiwan’s renewable energy planning.
   </div>
 </div>
 
