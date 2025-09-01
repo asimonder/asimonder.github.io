@@ -13,7 +13,7 @@ This PhD project combines physical analysis with turbulence model development. Y
 
 #### Candidate Profile
 - Master’s degree in Mechanical, Civil, or Ocean Engineering, Physics, Applied Mathematics, or a closely related field  
-- Strong background in fluid mechanics and turbulence  
+- Interest in fluid mechanics and turbulence, with willingness to learn advanced modeling 
 - Programming experience in C++ and/or Python, with CFD experience as an asset  
 - Proficiency in academic English  
 
