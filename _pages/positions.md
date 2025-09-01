@@ -9,8 +9,8 @@ nav_order: 6
 
 ## Open Positions
 
-- [PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers](/positions/phd-airsea)
-- [Postdoc Position: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines](/positions/postdoc-wind/)
+1. [PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers](/positions/phd-airsea)
+2. [Postdoc Position: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines](/positions/postdoc-wind/)
 
 ---
 
