@@ -15,7 +15,7 @@ This PhD project combines physical analysis with turbulence model development. Y
 - Master’s degree in Mechanical, Civil, or Ocean Engineering, Physics, Applied Mathematics, or a closely related field  
 - Interest in fluid mechanics and turbulence, with willingness to learn modeling approaches
 - Motivation to apply advanced numerical methods to ocean and wind energy problems  
-- Programming experience in C++ and/or Python, with CFD experience as an asset  
+- Programming experience (C++ and/or Python), with CFD experience as an asset  
 - Proficiency in academic English  
 
 #### Offer
