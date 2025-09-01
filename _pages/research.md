@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <p style="text-align: center;">
-  <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 75%; max-width: 800px;  min-width: 200px; height: auto;">
+  <img src="{{ '/assets/img/BlockThrustsWebPage2.jpg' | relative_url }}" alt="Research Thrusts" style="width: 80%; max-width: 800px;  min-width: 200px; height: auto;">
 </p>
 
 Our research aims to integrate offshore wind system modeling, air–sea multiphase dynamics, and regional wind planning through coupled parameterizations and cross-scale interactions.
