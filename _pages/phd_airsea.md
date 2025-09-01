@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /positions/phd-airsea/
 ---
-### PhD Position: LES Modelling of Coupled Physics in Marine Boundary Layers
+### PhD Position: Two-Phase LES of Marine Boundary Layers
 
 #### Project Overview
 The exchange of momentum and energy between wind and surface waves, known as wind–wave coupling, is central to the dynamics of marine boundary layers and directly affects offshore wind resource assessment. In strong winds, wave breaking, spray formation, and bubble entrainment further modify these exchanges, introducing multiphase processes that are poorly captured in existing models. Developing turbulence closures that represent both the primary wind–wave coupling and its multiphase feedbacks is essential for advancing Large-Eddy Simulation (LES) of the marine surface layer.
