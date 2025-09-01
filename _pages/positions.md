@@ -9,12 +9,6 @@ nav_order: 6
 
 ### Open Positions
 
-#### - [PhD Position: Two-Phase LES of Marine Boundary Layers](/positions/phd-airsea)
-#### - [Postdoc Opportunity: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines](/positions/postdoc-wind/)
-
-
-### Open Positions
-
 <ul style="font-size:1.1rem; font-weight:bold;">
   <li><a href="/positions/phd-airsea">PhD Position: Two-Phase LES of Marine Boundary Layers</a></li>
   <li><a href="/positions/postdoc-wind/">Postdoc Opportunity: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines</a></li>
