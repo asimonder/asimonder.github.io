@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-### Open Positions
+#### Open Positions
 
 1. [PhD Position: Two-Phase LES of Marine Boundary Layers](/positions/phd-airsea)
 2. [Postdoc Position: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines](/positions/postdoc-wind/)
