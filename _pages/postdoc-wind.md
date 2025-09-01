@@ -4,29 +4,29 @@ title:
 permalink: /positions/postdoc-wind/
 ---
 
-### Postdoctoral Position: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines
+### Postdoctoral Opportunity: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines
 
-A postdoctoral position is available at the Department of Marine Environment and Engineering, National Sun Yat-sen University (Kaohsiung, Taiwan). The position is **contingent on a successful application for a National Science and Technology Council (NSTC) Postdoctoral Fellowship**, with full support provided during the application process and bridge funding available.
+The Department of Marine Environment and Engineering at National Sun Yat-sen University (Kaohsiung, Taiwan) is seeking a postdoctoral researcher to apply for a **National Science and Technology Council (NSTC) Postdoctoral Fellowship**. The successful candidate will receive full support in preparing the fellowship application and, if awarded, will join a project on large-scale simulation of offshore wind turbines.
 
-#### Project Description
-Predicting the combined effects of atmospheric turbulence and ocean wave loading on offshore wind turbines remains a critical challenge in renewable energy. This project will develop a numerical framework for fully coupled aero-hydrodynamic analysis of complete turbine systems.  
+## Project Description
+Accurately predicting the combined effects of atmospheric turbulence and ocean wave loading on offshore wind turbines is a critical challenge in renewable energy. This project will focus on developing a numerical framework for coupled aero-hydrodynamic analysis of complete turbine systems.  
 
-The central task is the implementation of a **Wall-Modeled Immersed Boundary (WM-IB) method** within a two-phase VOF-LES solver (OpenFOAM). The resulting tool will be applied to large-scale simulations of offshore wind turbines, including power production, wake interactions in realistic sea states, and unsteady structural loads under extreme typhoon conditions.
+The central task is the implementation of a **Wall-Modeled Immersed Boundary (WM-IB) method** within a two-phase VOF-LES solver (OpenFOAM). The resulting framework will be applied to large-scale simulations, including turbine power production, wake interactions in realistic sea states, and unsteady structural loads under extreme typhoon conditions.
 
-#### Candidate Profile
+## Candidate Profile
 - PhD in Mechanical, Aerospace, or Ocean Engineering, Applied Mechanics, or a related field  
 - Publication record demonstrating expertise in computational fluid dynamics (CFD)  
 - Knowledge of fluid mechanics, turbulence, and numerical methods  
 - Strong programming skills in C++; experience with OpenFOAM development is a major asset  
 - Proficiency in academic English  
 
-#### Funding
+## Funding
 - The position will be supported through an **NSTC Postdoctoral Fellowship**  
-- The PI will provide a host grant and direct support for preparing the fellowship application  
-- Bridge funding is available during the application review period  
+- The PI will provide a host project and direct support for preparing the fellowship application  
+- Appointment is contingent on the fellowship award  
 
-#### Application
-Please contact asim.onder@mail.nsysu.edu.tw to discuss the project and the fellowship application process. Applications should include a CV and a summary of research accomplishments and interests.
+## Application
+Interested candidates should contact asim.onder@mail.nsysu.edu.tw to discuss the project and the fellowship application process. Applications should include a CV and a summary of research accomplishments and interests.
 
 
 
