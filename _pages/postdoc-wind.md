@@ -6,7 +6,7 @@ permalink: /positions/postdoc-wind/
 
 ### Postdoctoral Opportunity: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines
 
-The Department of Marine Environment and Engineering at National Sun Yat-sen University (Kaohsiung, Taiwan) is seeking a postdoctoral researcher to apply for a **National Science and Technology Council (NSTC) Postdoctoral Fellowship**. The successful candidate will receive full support in preparing the fellowship application and, if awarded, will join a project on large-scale simulation of offshore wind turbines.
+We are seeking a qualified candidate to apply for **National Science and Technology Council (NSTC) Postdoctoral Fellowship** to conduct research at National Sun Yat-sen University (Kaohsiung, Taiwan). The selected candidate will be provided with a host research project and full support from the PI to prepare the fellowship proposal.
 
 ## Project Description
 Accurately predicting the combined effects of atmospheric turbulence and ocean wave loading on offshore wind turbines is a critical challenge in renewable energy. This project will focus on developing a numerical framework for coupled aero-hydrodynamic analysis of complete turbine systems.  
