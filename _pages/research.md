@@ -37,7 +37,7 @@ Our research integrates offshore wind system modeling, air–sea multiphase dyna
     <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="VOF-LES of a wind farm" class="img-fluid rounded">
   </div>
   <div class="col-sm-6">
-    We create high-fidelity “digital twins” of offshore wind farms using large-eddy simulation (LES) coupled with volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems in Taiwan.
+    We create high-fidelity “digital twins” of offshore wind farms using large-eddy simulation (LES) coupled with volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems in Taiwan and beyond.
   </div>
 </div>
 
