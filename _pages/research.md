@@ -37,7 +37,7 @@ Our research aims to integrate offshore wind system modeling, air–sea multipha
     <img src="{{ '/assets/img/WindFarmWSeaBed.jpg' | relative_url }}" alt="VOF-LES of a wind farm" class="img-fluid rounded">
   </div>
   <div class="col-sm-6">
-    We create high-fidelity “digital twins” of offshore wind farms using large-eddy simulation (LES) coupled with volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and the turbine structures. This aero-hydro coupled approach allows for the accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems.
+    Our work in this area focuses on creating high-fidelity aero–hydro coupled models of offshore wind farms. We use large-eddy simulation (LES) with a volume-of-fluid (VOF) method to capture the complex, unsteady interactions between the turbulent atmosphere, dynamic ocean waves, and turbine structures. This approach enables accurate prediction of turbine performance, wake effects, and structural loads, providing crucial data for improving the design and operational efficiency of offshore wind energy systems.
   </div>
 </div>
 
@@ -58,4 +58,4 @@ Our research aims to integrate offshore wind system modeling, air–sea multipha
 
 ---
 
-Together, these research directions form a multiscale pipeline, starting from the micro-physics of the air–sea interface, moving through high-fidelity digital twins of offshore wind farms, and extending to regional wind-resource assessment. This integrated approach advances the fundamental science of multiphase flows and turbulence while providing practical tools for offshore renewable energy. Applications include global offshore wind development as well as region-specific challenges such as those in the Taiwan Strait.
+Together, these research directions form a multiscale pipeline, starting from the micro-physics of the air–sea interface, moving through high-fidelity coupled models of offshore wind farms, and extending to regional wind-resource assessment. This integrated approach advances the fundamental science of multiphase flows and turbulence while providing practical tools for offshore renewable energy. Applications include global offshore wind development as well as region-specific challenges such as those in the Taiwan Strait.
