@@ -31,6 +31,6 @@ Our lab integrates fundamental theory, advanced numerical algorithms, and high-f
 To learn more about our specific projects, please visit our [Research page](/research/). For information on joining the lab, see our [Open Positions](/positions/).
 
 <div style="border: 2px solid #c00; padding: 10px; margin: 20px 0; text-align: center; font-size: 1.1rem; font-weight: bold; color: #c00;">
-  🚀 We are hiring! Check out our <a href="/positions/" style="color: #c00; text-decoration: underline;">Open Positions</a>.
+  We are hiring! Check out our <a href="/positions/" style="color: #c00; text-decoration: underline;">Open Positions</a>.
 </div>
 
