@@ -34,3 +34,8 @@ To learn more about our specific projects, please visit our [Research Page](/res
   PhD and Postdoctoral Opportunities Available! See our <a href="/positions/" style="color: #003366; text-decoration: underline;">Open Positions</a>.
 </div>
 
+<div style="background:#f0f0f0; color:#000; padding:12px 14px; margin:22px 0; text-align:center; font-weight:bold; border-radius:8px;">
+  PhD and Postdoctoral Opportunities Available. 
+  See our <a href="/positions/" style="color:#0066cc; text-decoration:underline;">Open Positions</a>.
+</div>
+
