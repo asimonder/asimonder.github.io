@@ -20,8 +20,5 @@ The central task is the implementation of a **Wall-Modeled Immersed Boundary (WM
 - Strong programming skills in C++; experience with OpenFOAM development is a major asset  
 - Proficiency in academic English   
 
-#### About NSYSU
-National Sun Yat-sen University (NSYSU) is a leading research university in Taiwan. Located in Kaohsiung, the seaside campus lies where the mountains meet the ocean, offering a unique living and research environment at the center of Taiwan’s offshore wind expansion.  
-
 #### Application
 Please contact <a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a> to discuss the project and the fellowship application process. Applications should include a CV and a summary of research accomplishments and interests.
