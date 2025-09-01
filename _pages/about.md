@@ -30,10 +30,6 @@ Our lab integrates fundamental theory, advanced numerical algorithms, and high-f
 
 To learn more about our specific projects, please visit our [Research Page](/research/). 
 
-<div style="border: 2px solid #003366; padding: 10px; margin: 20px 0; text-align: center; font-size: 1.1rem; font-weight: bold; color: #003366;">
-  PhD and Postdoctoral Opportunities Available! See our <a href="/positions/" style="color: #003366; text-decoration: underline;">Open Positions</a>.
-</div>
-
 <div style="border: 2px solid #0055a5; padding: 10px; margin: 20px 0; text-align: center; font-size: 1.1rem; font-weight: bold; color: #0055a5;">
   PhD and Postdoctoral Opportunities Available! See our <a href="/positions/" style="color: #0055a5; text-decoration: underline;">Open Positions</a>.
 </div>
