@@ -4,8 +4,6 @@ title: "PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary 
 permalink: /positions/phd-airsea/
 ---
 
-# PhD Position: Coupled Physics and Turbulence Closure of Marine Boundary Layers
-
 ## Project Overview
 The exchange of momentum and energy between wind and surface waves, known as wind–wave coupling, is central to the dynamics of marine boundary layers and directly affects offshore wind resource assessment. In strong winds, wave breaking, spray formation, and bubble entrainment further modify these exchanges, introducing multiphase processes that are poorly captured in existing models. Developing turbulence closures that represent both the primary wind–wave coupling and its multiphase feedbacks is essential for advancing Large-Eddy Simulation (LES) of the marine surface layer.
 
@@ -20,7 +18,7 @@ This PhD project combines physical analysis with turbulence model development. Y
 
 ## Offer
 - Fully funded PhD position with tuition waiver and monthly stipend  
-- Access to Taiwan’s national supercomputing resources and an international research environment  
+- Access to Taiwan’s national supercomputing resources 
 - Support in applying for competitive external fellowships  
 
 ## About NSYSU
