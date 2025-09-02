@@ -58,4 +58,4 @@ Our research aims to integrate offshore wind system modeling, air–sea multipha
 
 ---
 
-Together, these research directions form a multiscale pipeline, starting from the micro-physics of the air–sea interface, moving through high-fidelity coupled models of offshore wind farms, and extending to regional wind-resource assessment. This integrated approach advances the fundamental science of multiphase flows and turbulence while providing practical tools for offshore renewable energy. Applications include global offshore wind development as well as region-specific challenges such as those in the Taiwan Strait.
+These research directions form a multiscale pipeline, starting from the micro-physics of the air–sea interface, moving through high-fidelity coupled models of offshore wind farms, and extending to regional wind-resource assessment. This integrated approach advances the fundamental science of multiphase flows and turbulence while providing practical tools for offshore renewable energy. Applications include global offshore wind development as well as region-specific challenges such as those in the Taiwan Strait.
