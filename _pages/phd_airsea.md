@@ -12,9 +12,9 @@ A fully funded PhD position is available at the Department of Marine Environment
 
 This PhD project combines physical analysis with turbulence model development. Your primary role will be to:
 
-- Analyze two-phase Direct Numerical Simulation (DNS) datasets to identify the mechanisms governing air–sea exchange in marine boundary layers.  
-- Design and implement new subgrid-scale (SGS) closures for LES, using both physics-based formulations and machine learning approaches.  
-- Investigate wind–wave–current coupling at scales relevant for offshore wind applications.
+- Analyze two-phase Direct Numerical Simulation (DNS) datasets to identify the mechanisms governing air–sea exchange in marine boundary layers  
+- Design and implement new subgrid-scale (SGS) closures for LES, using both physics-based formulations and machine learning approaches 
+- Investigate wind–wave–current coupling at scales relevant for offshore wind applications
 
 #### Candidate Profile
 - Master’s degree in Mechanical, Civil, or Ocean Engineering, Physics, Applied Mathematics, or a closely related field  
