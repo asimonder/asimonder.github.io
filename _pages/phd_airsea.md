@@ -8,8 +8,15 @@ permalink: /positions/phd-airsea/
 
 A fully funded PhD position is available at the Department of Marine Environment and Engineering, National Sun Yat-sen University (Kaohsiung, Taiwan). The research will examine the coupled dynamics of wind, surface waves, and ocean currents that set the structure of the marine boundary layers. In energetic conditions, wave breaking, spray formation, and bubble entrainment introduce additional multiphase pathways for momentum and energy exchange across the air–sea interface, yet these effects remain poorly represented in existing models. The project will develop turbulence closures that capture both the baseline wind–wave–current coupling and its multiphase feedbacks, advancing Large-Eddy Simulation (LES) of marine boundary layers and enabling improved assessment of offshore wind resources.
 
-#### Your Role
-This PhD project combines physical analysis with turbulence model development. You will use two-phase Direct Numerical Simulation (DNS) datasets to investigate wind–wave coupling and its multiphase modifiers, such as breaking waves, spray, and bubbles. Building on these insights, you will design and test new subgrid-scale closures for LES, employing both physics-based formulations and machine learning methods. The outcome will be an LES framework that advances our understanding of marine surface layer dynamics and improves the estimation of offshore wind profiles.
+### Your Role
+
+This PhD project combines physical analysis with turbulence model development. Your primary role will be to:
+
+- Analyze two-phase Direct Numerical Simulation (DNS) datasets to identify the mechanisms governing air–sea exchange in marine boundary layers.  
+- Design and implement new subgrid-scale (SGS) closures for LES, using both physics-based formulations and machine learning approaches.  
+- Validate these models against DNS benchmarks and available experimental data.  
+
+The expected outcome is an LES framework that extends current modeling capability and provides more reliable predictions of marine boundary layer dynamics and offshore wind resources.
 
 #### Candidate Profile
 - Master’s degree in Mechanical, Civil, or Ocean Engineering, Physics, Applied Mathematics, or a closely related field  
