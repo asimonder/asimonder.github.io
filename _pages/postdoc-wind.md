@@ -11,7 +11,7 @@ A qualified candidate is invited to apply for a **National Science and Technolog
 #### Project Description
 Accurately predicting the combined effects of atmospheric turbulence and ocean wave loading on offshore wind turbines is a critical challenge in renewable energy. This project will focus on developing a numerical framework for coupled aero-hydrodynamic analysis of complete turbine systems.  
 
-The central task is the implementation of a **Wall-Modeled Immersed Boundary (WM-IB) method** within a two-phase VOF-LES solver (OpenFOAM). The resulting framework will be applied to large-scale simulations, including turbine power production, wake interactions in realistic sea states, and unsteady structural loads under extreme conditions.
+The central task is to implement a wall-modeled immersed-boundary (WM-IB) method within a two-phase VOF-LES solver (OpenFOAM). The resulting framework will enable large-scale simulations of complete turbine systems, including power production, wake interactions, and unsteady structural loads under operational and extreme conditions.
 
 #### Candidate Profile
 - PhD in Mechanical, Aerospace, or Ocean Engineering, Applied Mechanics, or a related field  
