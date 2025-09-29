@@ -24,7 +24,7 @@ Our research aims to integrate offshore wind system modeling, air–sea multipha
     <img src="{{ '/assets/img/DNS_MABL.jpg' | relative_url }}" alt="DNS of air-sea interface" class="img-fluid rounded">
   </div>
   <div class="col-sm-6">
-    At the core of our research is the micro-physics of the air–sea interface. Using large-scale Direct Numerical Simulations (DNS), we generate comprehensive ground-truth datasets that resolve turbulent momentum and heat exchange, as well as multiphase processes such as wave breaking, sea spray, and bubble entrainment. These datasets provide the foundation for developing and validating physics-based parameterizations, novel turbulence closures, and data-driven approaches including machine learning.
+    At the core of our research is the micro-physics of the air–sea interface. Using large-scale Direct Numerical Simulations (DNS), we generate comprehensive datasets that resolve turbulent momentum and heat exchange, as well as multiphase processes such as wave breaking, sea spray, and bubble entrainment. These datasets provide the foundation for developing and validating physics-based parameterizations, novel turbulence closures, and data-driven approaches including machine learning.
   </div>
 </div>
 
