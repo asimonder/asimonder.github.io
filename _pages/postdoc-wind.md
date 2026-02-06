@@ -20,7 +20,7 @@ This project will develop Euler-Lagrangian modeling capabilities for sea spray w
 - PhD in Mechanical, Aerospace, or Ocean Engineering, Applied Mechanics, or a related field  
 - Good publication record demonstrating expertise   
 - Experience with multiphase CFD
-- Programming skills in C++; experience with OpenFOAM solver development is a major asset  
+- Programming skills in C++; experience with OpenFOAM code development is a major asset  
 - Proficiency in academic English  
 
 #### Application
