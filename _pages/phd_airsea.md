@@ -33,7 +33,7 @@ The project combines physical analysis with turbulence model development. The ma
 
 #### About the Lab and University
 
-The [Marine Aero- and Hydrodynamics Laboratory]((https://asimonder.github.io/)) specializes in high-fidelity simulation of air–sea interaction. National Sun Yat-sen University (NSYSU) is a leading research university in Taiwan. Located in Kaohsiung, the seaside campus lies where the mountains meet the ocean, offering a unique living and research environment at the center of Taiwan's offshore wind expansion.
+The [Marine Aero- and Hydrodynamics Laboratory](https://asimonder.github.io/) specializes in high-fidelity simulation of air–sea interaction. National Sun Yat-sen University (NSYSU) is a leading research university in Taiwan. Located in Kaohsiung, the seaside campus lies where the mountains meet the ocean, offering a unique living and research environment at the center of Taiwan's offshore wind expansion.
 
 #### Application
 
