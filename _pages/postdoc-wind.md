@@ -5,7 +5,7 @@ permalink: /positions/postdoc-wind/
 ---
 
 
-### Postdoctoral Opportunity: Sea Spray Modeling in the Marine Boundary Layers
+### Postdoctoral Opportunity: Sea Spray Modeling in Marine Boundary Layers
 
 A qualified candidate is invited to apply for a **National Science and Technology Council (NSTC) Postdoctoral Fellowship** to be hosted within a multi-year research project at the Department of Marine Environment and Engineering, National Sun Yat-sen University (Kaohsiung, Taiwan). The successful applicant will receive full support in preparing the fellowship proposal, and the appointment will be contingent on the fellowship award.
 
@@ -18,7 +18,7 @@ This project will develop Euler-Lagrangian modeling capabilities for sea spray w
 #### Candidate Profile
 
 - PhD in Mechanical, Aerospace, or Ocean Engineering, Applied Mechanics, or a related field  
-- Good publication record demonstrating expertise   
+- Good publication record 
 - Experience with multiphase CFD
 - Programming skills in C++; experience with OpenFOAM code development is a major asset  
 - Proficiency in academic English  
