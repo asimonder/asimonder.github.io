@@ -5,7 +5,7 @@ permalink: /positions/postdoc-wind/
 ---
 
 
-### Postdoctoral Opportunity: Sea Spray Modeling in the Marine Atmospheric Boundary Layer
+### Postdoctoral Opportunity: Sea Spray Modeling in the Marine Boundary Layers
 
 A qualified candidate is invited to apply for a **National Science and Technology Council (NSTC) Postdoctoral Fellowship** to be hosted within a multi-year research project at the Department of Marine Environment and Engineering, National Sun Yat-sen University (Kaohsiung, Taiwan). The successful applicant will receive full support in preparing the fellowship proposal, and the appointment will be contingent on the fellowship award.
 
