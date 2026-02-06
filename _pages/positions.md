@@ -11,7 +11,7 @@ nav_order: 6
 
 <ul style="font-size:1.1rem; font-weight:bold;">
   <li><a href="/positions/phd-airsea">PhD Position: Two-Phase LES of Marine Boundary Layers</a></li>
-  <li><a href="/positions/postdoc-wind/">Postdoc Opportunity: Large-Scale Aero-Hydro Coupling of Offshore Wind Turbines</a></li>
+  <li><a href="/positions/postdoc-wind/">Postdoctoral Opportunity: Sea Spray Modeling in the Marine Atmospheric Boundary Layer</a></li>
 </ul>
 ---
 
