@@ -3,7 +3,6 @@ layout: page
 title: 
 permalink: /positions/phd-airsea/
 ---
-Fair enough — here you go:
 
 
 ### PhD Position: Two-Phase LES of Marine Boundary Layers
