@@ -41,6 +41,6 @@ Send your CV, transcripts, and a short motivation letter to Dr. Asım Önder ([a
 
 #### Application
 
-Starting date: August 2025 (Fall semester). Send your CV, transcripts, and a short motivation letter to Dr. Asım Önder ([asim.onder@mail.nsysu.edu.tw](mailto:asim.onder@mail.nsysu.edu.tw)). The selected candidate will be supported through the formal application to NSYSU's graduate program. Review of applications will begin immediately and continue until the position is filled. Only shortlisted candidates will be contacted.
+Starting date: August 2026 (Fall semester). Send your CV, transcripts, and a short motivation letter to Dr. Asım Önder ([asim.onder@mail.nsysu.edu.tw](mailto:asim.onder@mail.nsysu.edu.tw)). The selected candidate will be supported through the formal application to NSYSU's graduate program. Review of applications will begin immediately and continue until the position is filled. Only shortlisted candidates will be contacted.
 
 
