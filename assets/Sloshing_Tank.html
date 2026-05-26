@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1D Basin Sloshing</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        #info-bar {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #8ab4f8;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .controls {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            background: #1e1e1e;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        label {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+        span.val {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        input[type=range] {
+            cursor: pointer;
+        }
+        canvas {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="info-bar">Wave Speed: 0.00 m/s | Period: 0.00 s</div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Length L (<span class="val" id="l-val">100</span> m)</label>
+            <input type="range" id="len" min="20" max="300" step="10" value="100">
+        </div>
+        <div class="control-group">
+            <label>Depth h (<span class="val" id="h-val">10</span> m)</label>
+            <input type="range" id="dep" min="2" max="30" step="1" value="10">
+        </div>
+        <div class="control-group">
+            <label>Amplitude h₀ (<span class="val" id="amp-val">0.5</span> m)</label>
+            <input type="range" id="amp" min="0.1" max="2.0" step="0.1" value="0.5">
+        </div>
+        <div class="control-group">
+            <label>Mode n (<span class="val" id="n-val">1</span>)</label>
+            <input type="range" id="mod" min="1" max="6" step="1" value="1">
+        </div>
+        <div class="control-group">
+            <label>Anim Speed (<span class="val" id="s-val">5</span>)</label>
+            <input type="range" id="spd" min="1" max="50" step="1" value="5">
+        </div>
+    </div>
+
+    <canvas id="simCanvas" width="900" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById('simCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const inputs = {
+            L: document.getElementById('len'),
+            h: document.getElementById('dep'),
+            h0: document.getElementById('amp'),
+            n: document.getElementById('mod'),
+            speed: document.getElementById('spd')
+        };
+
+        const displays = {
+            L: document.getElementById('l-val'),
+            h: document.getElementById('h-val'),
+            h0: document.getElementById('amp-val'),
+            n: document.getElementById('n-val'),
+            speed: document.getElementById('s-val')
+        };
+
+        const infoBar = document.getElementById('info-bar');
+        
+        let time = 0;
+        const g = 9.81;
+
+        function animate() {
+            const L = parseFloat(inputs.L.value);
+            const h = parseFloat(inputs.h.value);
+            const h0 = parseFloat(inputs.h0.value);
+            const n = parseInt(inputs.n.value);
+            const animSpeed = parseInt(inputs.speed.value);
+
+            displays.L.textContent = L;
+            displays.h.textContent = h;
+            displays.h0.textContent = h0.toFixed(1);
+            displays.n.textContent = n;
+            displays.speed.textContent = animSpeed;
+
+            // Shallow water wave calculations
+            const c = Math.sqrt(g * h);
+            const wn = (n * Math.PI * c) / L;
+            const T = (2 * Math.PI) / wn;
+
+            infoBar.textContent = `Wave Speed (c = √gh): ${c.toFixed(2)} m/s | Mode ${n} Period: ${T.toFixed(2)} s`;
+
+            time += (animSpeed * 0.005);
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const marginX = 100;
+            const drawWidth = canvas.width - (marginX * 2);
+            const centerY = canvas.height / 2 - 20; // Shifted slightly up
+            
+            // Visual scalars
+            const maxDrawDepth = 150; 
+            const drawDepth = (h / 30) * maxDrawDepth; // Relative to max depth slider
+            const displayScale = 80; // Scale physical amplitude for visual clarity
+
+            // Draw water body
+            ctx.beginPath();
+            ctx.moveTo(marginX, centerY + drawDepth);
+            
+            for (let px = 0; px <= drawWidth; px++) {
+                const x = (px / drawWidth) * L;
+                // Neumann mode: cos(n*pi*x/L)
+                const elevation = h0 * Math.cos((n * Math.PI * x) / L) * Math.cos(wn * time);
+                const y = elevation * displayScale;
+                ctx.lineTo(marginX + px, centerY - y);
+            }
+            
+            ctx.lineTo(marginX + drawWidth, centerY + drawDepth);
+            ctx.closePath();
+
+            ctx.fillStyle = 'rgba(100, 150, 255, 0.4)';
+            ctx.fill();
+
+            // Stroke the animated surface line
+            ctx.beginPath();
+            for (let px = 0; px <= drawWidth; px++) {
+                const x = (px / drawWidth) * L;
+                const elevation = h0 * Math.cos((n * Math.PI * x) / L) * Math.cos(wn * time);
+                const y = elevation * displayScale;
+                if (px === 0) ctx.moveTo(marginX + px, centerY - y);
+                else ctx.lineTo(marginX + px, centerY - y);
+            }
+            ctx.strokeStyle = '#8ab4f8';
+            ctx.lineWidth = 3;
+            ctx.stroke();
+
+            // Draw solid walls (Impermeable Neumann Boundaries) and sea floor
+            ctx.beginPath();
+            ctx.moveTo(marginX, centerY - 100); 
+            ctx.lineTo(marginX, centerY + drawDepth); 
+            ctx.lineTo(marginX + drawWidth, centerY + drawDepth); 
+            ctx.lineTo(marginX + drawWidth, centerY - 100);
+            ctx.strokeStyle = '#888888';
+            ctx.lineWidth = 6;
+            ctx.stroke();
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
