@@ -104,6 +104,7 @@
         
         let time = 0;
         const h0 = 0.05; // Fixed physical pluck amplitude for scaling
+        const maxL = 2.0; // Bound to the L slider max
 
         function animate() {
             const L = parseFloat(inputs.L.value);
@@ -122,23 +123,28 @@
 
             infoBar.textContent = `Fundamental Freq: ${f1.toFixed(1)} Hz | Period: ${T1.toFixed(4)} s`;
 
-            // dt scaled to fundamental period so animation remains visible. Multiplier reduced for slower base speed.
             time += (animSpeed * 0.00003);
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+            // --- FIXED SCALING LOGIC FOR WIDTH ---
             const marginX = 100;
             const centerY = canvas.height / 2;
-            const drawWidth = canvas.width - (marginX * 2);
             
-            // Visual amplitude scalar
+            const availableWidth = canvas.width - (marginX * 2);
+            // Draw width scales dynamically with slider L
+            const drawWidth = (L / maxL) * availableWidth;
+            
+            // Center the string perfectly in the canvas
+            const startX = canvas.width / 2 - drawWidth / 2;
+            
             const displayScale = 1500; 
 
             // Draw clamped boundary points
             ctx.fillStyle = '#888888';
             ctx.beginPath();
-            ctx.arc(marginX, centerY, 6, 0, 2 * Math.PI);
-            ctx.arc(marginX + drawWidth, centerY, 6, 0, 2 * Math.PI);
+            ctx.arc(startX, centerY, 6, 0, 2 * Math.PI);
+            ctx.arc(startX + drawWidth, centerY, 6, 0, 2 * Math.PI);
             ctx.fill();
 
             // Draw string
@@ -158,8 +164,8 @@
 
                 const y = u * displayScale;
 
-                if (px === 0) ctx.moveTo(marginX + px, centerY - y);
-                else ctx.lineTo(marginX + px, centerY - y);
+                if (px === 0) ctx.moveTo(startX + px, centerY - y);
+                else ctx.lineTo(startX + px, centerY - y);
             }
 
             ctx.strokeStyle = '#8ab4f8';
