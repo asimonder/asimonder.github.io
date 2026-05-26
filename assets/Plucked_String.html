@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1D Plucked String</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        #info-bar {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #8ab4f8;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .controls {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            background: #1e1e1e;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        label {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+        span.val {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        input[type=range] {
+            cursor: pointer;
+        }
+        canvas {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="info-bar">Fundamental Freq: 0.00 Hz | Period: 0.00 s</div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Length L (<span class="val" id="l-val">1.0</span> m)</label>
+            <input type="range" id="len" min="0.5" max="2.0" step="0.1" value="1.0">
+        </div>
+        <div class="control-group">
+            <label>Speed c (<span class="val" id="c-val">300</span> m/s)</label>
+            <input type="range" id="spd-c" min="100" max="1000" step="10" value="300">
+        </div>
+        <div class="control-group">
+            <label>Max Harmonic n (<span class="val" id="n-val">5</span>)</label>
+            <input type="range" id="mod" min="1" max="49" step="2" value="5">
+        </div>
+        <div class="control-group">
+            <label>Anim Speed (<span class="val" id="s-val">5</span>)</label>
+            <input type="range" id="spd" min="1" max="50" step="1" value="5">
+        </div>
+    </div>
+
+    <canvas id="simCanvas" width="900" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById('simCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const inputs = {
+            L: document.getElementById('len'),
+            c: document.getElementById('spd-c'),
+            n: document.getElementById('mod'),
+            speed: document.getElementById('spd')
+        };
+
+        const displays = {
+            L: document.getElementById('l-val'),
+            c: document.getElementById('c-val'),
+            n: document.getElementById('n-val'),
+            speed: document.getElementById('s-val')
+        };
+
+        const infoBar = document.getElementById('info-bar');
+        
+        let time = 0;
+        const h0 = 0.05; // Fixed physical pluck amplitude for scaling
+
+        function animate() {
+            const L = parseFloat(inputs.L.value);
+            const c = parseFloat(inputs.c.value);
+            const maxN = parseInt(inputs.n.value);
+            const animSpeed = parseInt(inputs.speed.value);
+
+            displays.L.textContent = L.toFixed(1);
+            displays.c.textContent = c;
+            displays.n.textContent = maxN;
+            displays.speed.textContent = animSpeed;
+
+            const w1 = (Math.PI * c) / L;
+            const f1 = w1 / (2 * Math.PI);
+            const T1 = 1 / f1;
+
+            infoBar.textContent = `Fundamental Freq: ${f1.toFixed(1)} Hz | Period: ${T1.toFixed(4)} s`;
+
+            // dt scaled to fundamental period so animation remains visible. Multiplier reduced for slower base speed.
+            time += (animSpeed * 0.00003);
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const marginX = 100;
+            const centerY = canvas.height / 2;
+            const drawWidth = canvas.width - (marginX * 2);
+            
+            // Visual amplitude scalar
+            const displayScale = 1500; 
+
+            // Draw clamped boundary points
+            ctx.fillStyle = '#888888';
+            ctx.beginPath();
+            ctx.arc(marginX, centerY, 6, 0, 2 * Math.PI);
+            ctx.arc(marginX + drawWidth, centerY, 6, 0, 2 * Math.PI);
+            ctx.fill();
+
+            // Draw string
+            ctx.beginPath();
+            for (let px = 0; px <= drawWidth; px++) {
+                const x = (px / drawWidth) * L;
+                let u = 0;
+
+                // Sum over odd harmonics
+                for (let n = 1; n <= maxN; n += 2) {
+                    const sign = ((n - 1) / 2) % 2 === 0 ? 1 : -1;
+                    const An = (8 * h0 * sign) / (Math.pow(n, 2) * Math.pow(Math.PI, 2));
+                    const wn = (n * Math.PI * c) / L;
+                    
+                    u += An * Math.sin((n * Math.PI * x) / L) * Math.cos(wn * time);
+                }
+
+                const y = u * displayScale;
+
+                if (px === 0) ctx.moveTo(marginX + px, centerY - y);
+                else ctx.lineTo(marginX + px, centerY - y);
+            }
+
+            ctx.strokeStyle = '#8ab4f8';
+            ctx.lineWidth = 3;
+            ctx.stroke();
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
