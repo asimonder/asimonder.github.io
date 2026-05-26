@@ -59,7 +59,7 @@
 </head>
 <body>
 
-    <div id="info-bar">Wave Speed: 0.00 m/s | Period: 0.00 s</div>
+    <div id="info-bar">Wave Speed: 0.00 m/s | Mode 1 Period: 0.00 s</div>
 
     <div class="controls">
         <div class="control-group">
@@ -110,6 +110,8 @@
         
         let time = 0;
         const g = 9.81;
+        const maxL = 300;
+        const maxH = 30;
 
         function animate() {
             const L = parseFloat(inputs.L.value);
@@ -124,7 +126,7 @@
             displays.n.textContent = n;
             displays.speed.textContent = animSpeed;
 
-            // Shallow water wave calculations
+            // Physics Calculations
             const c = Math.sqrt(g * h);
             const wn = (n * Math.PI * c) / L;
             const T = (2 * Math.PI) / wn;
@@ -135,28 +137,28 @@
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            const marginX = 100;
-            const drawWidth = canvas.width - (marginX * 2);
-            const centerY = canvas.height / 2 - 20; // Shifted slightly up
+            // Anchored Setup matching 5_Harbour_Oscillations
+            const marginX = 80;
+            const centerY = canvas.height / 2;
             
-            // Visual scalars
+            const availableWidth = canvas.width - (marginX * 2);
+            const drawWidth = (L / maxL) * availableWidth;
+            
             const maxDrawDepth = 150; 
-            const drawDepth = (h / 30) * maxDrawDepth; // Relative to max depth slider
-            const displayScale = 80; // Scale physical amplitude for visual clarity
+            const drawDepth = (h / maxH) * maxDrawDepth;
 
             // Draw water body
             ctx.beginPath();
-            ctx.moveTo(marginX, centerY + drawDepth);
+            ctx.moveTo(marginX, centerY + drawDepth); // Start at bottom left
             
             for (let px = 0; px <= drawWidth; px++) {
-                const x = (px / drawWidth) * L;
+                const physicalX = (px / drawWidth) * L;
                 // Neumann mode: cos(n*pi*x/L)
-                const elevation = h0 * Math.cos((n * Math.PI * x) / L) * Math.cos(wn * time);
-                const y = elevation * displayScale;
+                const y = (h0 * 40) * Math.cos((n * Math.PI * physicalX) / L) * Math.cos(wn * time);
                 ctx.lineTo(marginX + px, centerY - y);
             }
             
-            ctx.lineTo(marginX + drawWidth, centerY + drawDepth);
+            ctx.lineTo(marginX + drawWidth, centerY + drawDepth); // Drop to bottom right
             ctx.closePath();
 
             ctx.fillStyle = 'rgba(100, 150, 255, 0.4)';
@@ -165,9 +167,8 @@
             // Stroke the animated surface line
             ctx.beginPath();
             for (let px = 0; px <= drawWidth; px++) {
-                const x = (px / drawWidth) * L;
-                const elevation = h0 * Math.cos((n * Math.PI * x) / L) * Math.cos(wn * time);
-                const y = elevation * displayScale;
+                const physicalX = (px / drawWidth) * L;
+                const y = (h0 * 40) * Math.cos((n * Math.PI * physicalX) / L) * Math.cos(wn * time);
                 if (px === 0) ctx.moveTo(marginX + px, centerY - y);
                 else ctx.lineTo(marginX + px, centerY - y);
             }
@@ -175,12 +176,12 @@
             ctx.lineWidth = 3;
             ctx.stroke();
 
-            // Draw solid walls (Impermeable Neumann Boundaries) and sea floor
+            // Draw solid walls and sea floor (Closed Basin = both walls)
             ctx.beginPath();
-            ctx.moveTo(marginX, centerY - 100); 
-            ctx.lineTo(marginX, centerY + drawDepth); 
-            ctx.lineTo(marginX + drawWidth, centerY + drawDepth); 
-            ctx.lineTo(marginX + drawWidth, centerY - 100);
+            ctx.moveTo(marginX, centerY - 100); // Left wall top
+            ctx.lineTo(marginX, centerY + drawDepth); // Left wall bottom
+            ctx.lineTo(marginX + drawWidth, centerY + drawDepth); // Floor
+            ctx.lineTo(marginX + drawWidth, centerY - 100); // Right wall top
             ctx.strokeStyle = '#888888';
             ctx.lineWidth = 6;
             ctx.stroke();
